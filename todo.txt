@@ -1,0 +1,12 @@
+https://api.requires42.com
+
+https://api.requires42.com/requires
+imports/files
+
+https://api.requires42.com/mapping
+https://api.requires42.com/mapping POST
+https://api.requires42.com/mapping DELETE
+
+https://api.requires42.com/user/mapping GET
+https://api.requires42.com/user/mapping POST
+https://api.requires42.com/user/mapping DELETE
