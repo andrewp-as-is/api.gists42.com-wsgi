@@ -1,0 +1,2 @@
+from .tasks_pypi_project_sync import PypiProjectSync
+from .tasks_pypi_simple_sync import PypiSimpleSync

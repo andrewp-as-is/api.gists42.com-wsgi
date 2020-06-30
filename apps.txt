@@ -1,5 +1,4 @@
 django.contrib.auth
 django.contrib.contenttypes
 
-rest_framework
-rest_framework.authtoken
+django_celery_task_queue

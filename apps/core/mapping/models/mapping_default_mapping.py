@@ -3,7 +3,8 @@ from django.conf import settings
 from django.db import models
 
 class DefaultMapping(models.Model):
-    key = models.TextField(unique=True)
+    slug = models.TextField()
+    name = models.TextField(unique=True)
     value = models.TextField()
 
     is_approved = models.BooleanField(null=False,default=False)
@@ -22,3 +23,7 @@ class DefaultMapping(models.Model):
     class Meta:
         db_table = 'mapping_default_mapping'
         managed=False
+
+    def save(self, *args, **kwargs):
+        self.slug = self.name.lower()
+        super().save(*args, **kwargs)

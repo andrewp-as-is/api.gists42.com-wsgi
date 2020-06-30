@@ -10,3 +10,6 @@ https://api.requires42.com/mapping DELETE
 https://api.requires42.com/user/mapping GET
 https://api.requires42.com/user/mapping POST
 https://api.requires42.com/user/mapping DELETE
+
+
+a634a1134e0a6820ce0f41e953da5f22
